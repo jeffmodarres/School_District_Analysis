@@ -1,8 +1,8 @@
 
-# Module 3 Challenge: School_District_Analysis
+# Module 4 Challenge: School_District_Analysis
 
 ## Overview of The Analysis
-There is an evidence of academic dishonesty in the data reported for one of the schools. To uphold the state testing standards, school board has requested that the grades for a specific class to be removed from any analysis.
+There is an evidence of academic dishonesty in the data reported for one of the schools. To uphold the state testing standards, school board has requested that the grades for a specific class to be removed from any analysis. Thomas High School ninth grade math and reading scores needs to be removed from the analysis.
 
 ### Purpose
 Goal of this project is to redo the School distric analysis after replacing the Thomas High School ninth grade math and reading scores wiht NaNs.
@@ -13,12 +13,12 @@ Out of 39,170 students in the district, only 461 student had their data removed 
 ![Updated_district_Analysis](/Resources/updated_district_summary.png)
 
 * **How is the school summary affected?**
-In the school summary, none of the schools are affected except Thomas High Scholl.
+In the school summary, Thomas High School data is affected. All the reported scores and percentages are lower than reality
 
 ![Updated_school_Analysis](/Resources/updated_school_summary.png)
 
 * **How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?**
-Thomas High School,THS, has a total of 1635 students. Since 461 data points are missing, the THS stats are much lower than reality since all the calculation assumed all the data is available. So compared to other schools, THS is underrated.
+Thomas High School,THS, has a total of 1635 students.At first, Since 461 data points are missing, the THS stats appears much lower than reality since all the calculation assumed all the data is available. So compared to other schools, THS was underrated. After replacing the ninth graders’ math and reading scores, THS is ranked 2nd among all the school and moved up in the chart.
 
 ![THS_summary_including_all_students](/Resources/THS_summary_total_students.png)
 
@@ -33,7 +33,7 @@ Once the correct number of students is used to calculate the stats, THS moves up
     
     ![Updated_school_grade](/Resources/Updated_school_grade.png)
     * **Scores by school spending:**
-    The changes in the data is statistically insignificant, since only 461 out of 39170 data points are removed from analysis.
+    Some of the percentages increased a bit. The changes in the data is statistically insignificant, since only 461 out of 39170 data points are removed from analysis.
     
     ![Updated_school_spendings](/Resources/Updated_school_spendings.png)
 
